@@ -16,7 +16,7 @@ We included our full preprocessing and ML scripts.
 
 We also included our pickle file of our best performing model to test on testing data provided in dataset folder:
 		You can use it with following commands in python where drug_reviews_features_data.csv is output of preprocessing:
-```
+
 			import pickle
 			import pandas as pd
 
@@ -32,7 +32,6 @@ We also included our pickle file of our best performing model to test on testing
 			dtree.predict(X)
 
 			NOTE: The saved model works with the data in dataset folder and not with output of feature_data_preprocessing.py
-```
 
 
 First, setup pyspark: 
