@@ -1,3 +1,12 @@
+Drug-Reviews-NLP
+Advanced Detection of Healthcare Product Defects through NLP
+
+Using pyspark pipeline features are constructed with TFID, Stanford NLP, and Vader.
+
+These features are then trained to predict drug recall with varying models: Random Forests, CNN and RNN
+
+Here is how to execute the code in the repo:
+
 We included a subsample of reviews we found from:  http://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+(Drugs.com)
 		We combined the training and testing dataset into a whole dataset and then did our preprocessing analysis.
 
@@ -23,7 +32,6 @@ We also included our pickle file of our best performing model to test on testing
 			dtree.predict(X)
 
 			NOTE: The saved model works with the data in dataset folder and not with output of feature_data_preprocessing.py
-
 
 
 First, setup pyspark: 
